@@ -22,9 +22,9 @@ header li
   
 }
 
-.logo_choix div ul {
+.logo_choix ul {
     display:flex;
-    justify-content:flex-end;
+    justify-content:space-around;
 
 }
 .cherche_choix{
@@ -32,7 +32,10 @@ header li
     justify-content:space-around;
     /* align-items: center ; */
     background-color:navy;
-   
+  
+}
+.cherche_choix ul{
+    display:flex;margin:0px 2px 0px 2px ;color: linen;
 }
 
 main section{
@@ -42,16 +45,38 @@ main section{
     margin: 1px 0px 1px 0px ;
 }
 
+.choix_prix_marche div ul{
+    list-style-type: none;
+    display:flex;
     
+    
+    margin: 0px 2px 0px 2px;
+    
+}
+
 footer section{
     display:flex;
     flex-direction: column;
 }
 .liens_pratiques{
     display:flex; 
+    color: azure;
+    background-color:navy;
    
 }
 .liens_generaux{
     background-color:rgb(198, 205, 211);
-   
+    display:flex; 
+}
+.liens_generaux ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.legal{
+    background-color:navy;
+    align-items: center;
+    color: azure;
 }
