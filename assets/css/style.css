@@ -1,0 +1,47 @@
+header
+{
+	display:flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	/* align-items:flex-end; */
+    border: 2px solid;
+}
+header li
+{
+	display:flex;
+	margin-right: 15px;
+    
+	/* 	flex-direction: row; */
+	/* justify-content: space-between; */
+	
+}
+
+.logo_choix{
+    display:flex;
+    background-color:rgb(198, 205, 211);
+  
+}
+
+.logo_choix div ul {
+    display:flex;
+    justify-content:flex-end;
+
+}
+.cherche_choix{
+    display:flex;
+    justify-content:space-around;
+    /* align-items: center ; */
+    background-color:navy;
+   
+}
+
+main section{
+    display:flex;
+    border: 2px solid;
+    justify-content:center;
+    margin: 1px 0px 1px 0px ;
+}
+
+footer{
+    display:flex;
+}
