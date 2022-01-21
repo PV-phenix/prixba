@@ -1,4 +1,4 @@
-<footer style="display:flex;">
+<footer>
         <section class="liens_pratiques"style="background-color:rgb(198, 205, 211);display:flex;">
             <ul>
                 <li>Achats sans soucis</li>
